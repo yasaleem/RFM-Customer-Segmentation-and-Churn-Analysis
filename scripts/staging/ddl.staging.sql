@@ -8,30 +8,44 @@ DDL Script: Create the staging Tables
 IF OBJECT_ID('staging.crm_system', 'U') is NOT NULL
     DROP TABLE staging.crm_system
 CREATE TABLE staging.crm_customers (
-    Customer_ID     FLOAT,
+    Customer_ID     INT,
     Email           NVARCHAR(255),
     City            NVARCHAR(100),
     Country         NVARCHAR(100),
-    Registration_Date NVARCHAR(50)
+    Registration_Date DATE,
+    dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 
--- staging orders table
+-- staging Valid orders table
 IF OBJECT_ID('staging.orders', 'U') is NOT NULL
     DROP TABLE staging.orders
 CREATE TABLE staging.erp_orders (
     Invoice         NVARCHAR(20),
-    Customer_ID     FLOAT,
-    InvoiceDate     NVARCHAR(50) 
+    Customer_ID     INT,
+    InvoiceDate     DATE,
+    dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 GO
 
+-- staging Cancelation Order table
+IF OBJECT_ID('staging.erp_orders_cancellations', 'U') is NOT NULL
+    DROP TABLE staging.erp_orders_cancellations
+CREATE TABLE staging.erp_orders_cancellations (
+    Invoice         NVARCHAR(20),
+    Customer_ID     INT,
+    InvoiceDate     DATE,
+    dwh_create_date DATETIME2 DEFAULT GETDATE()
+);
+  
+  
 -- staging order items 
-IF OBJECT_ID('staging.order_items', 'U') is NOT NULL
-    DROP TABLE staging.order_items
+IF OBJECT_ID('staging.erp_order_items', 'U') is NOT NULL
+    DROP TABLE staging.erp_order_items
 CREATE TABLE staging.erp_order_items (
     Invoice         NVARCHAR(20),
     StockCode       NVARCHAR(20),
     Description     NVARCHAR(255),
-    Quantity        FLOAT,
-    Price           FLOAT
+    Quantity        INT,
+    Price           FLOAT,
+  dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
