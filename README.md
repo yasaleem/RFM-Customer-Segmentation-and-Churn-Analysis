@@ -9,52 +9,23 @@ The project simulates a real-world analytics workflow:
 - Cleaned and transformed across raw, staging, and analytics layers
 - Analyzed to answer four core business questions
 
-- ## 2. Business Questions
+## 2. Business Questions
 
 This project was designed to answer four specific business questions:
 
-| # | Question | Answered By |
-|---|----------|-------------|
-| 1 | Who are our highest value customers and what behaviors define them? | RFM Scores + Customer Segments |
-| 2 | Which customer segments are at risk of churning and why? | Churn Indicators |
-| 3 | What does the repeat purchase pattern look like and where does it break down? | Cohort Retention Analysis |
-| 4 | What specific actions should the marketing team take for each customer segment? | Business Recommendations |
+ 1 - Who are our highest value customers and what behaviors define them?
+ 2 - Which customer segments are at risk of churning and why?
+ 3 - What does the repeat purchase pattern look like and where does it break down?
+ 4 - What specific actions should the marketing team take for each customer segment?
 
-
-The SQL queries utilized to inspect and perform quality checks can be found [here]
+The SQL queries utilized to inspect and perform quality checks can be found [here] (scripts/Data_quality_checks.sql)
 The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found here
 Targeted SQL queries regarding various business questions can be found here
 
+## 2. Data Structure & Initial Checks
+BritGifts Online database structure as seen below consists of four tables: Customer, order, order_item, with a total row count of 500,989 records.
 
-
-# Data Warehouse and Analytics Project
-
-Welcome to the **Data Warehouse Project Analytics Project** repository!  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project.
-
-
-## 🚀 Project Requirements
-
-### Building the Data Warehouse (Data Engineering)
-
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
-
-### BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **RFM Analysis**
-    
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+Diagram
 
 ## 🛡️ License
 
