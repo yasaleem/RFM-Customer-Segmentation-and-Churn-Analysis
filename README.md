@@ -1,4 +1,4 @@
-## 1. Project Overview
+## <h1>1. Project Overview </h1>
 
 BritGifts Online is a UK-based e-commerce retailer selling gifts and homeware products across Europe and beyond. This project builds a complete customer analytics pipeline — from raw transactional data to actionable customer segments and churn indicators — designed to help the marketing team make data-driven decisions about customer retention, loyalty, and lifetime value.
 
