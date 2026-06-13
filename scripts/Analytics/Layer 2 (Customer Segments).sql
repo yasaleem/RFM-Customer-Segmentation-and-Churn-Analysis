@@ -22,6 +22,18 @@
   
 DROP TABLE IF EXISTS analytics.customer_segments;
 SELECT 
+    cs.Customer_ID,
+    cs.Recency_Days,
+    cs.Frequency,
+    cs.Monetary,
+    cs.R_Score,
+    cs.F_Score,
+    cs.M_Score,
+    cs.Segment,
+    c.Country
+INTO analytics.customer_segments
+FROM (
+    SELECT 
     Customer_ID,
     Recency_Days,
     Frequency,
@@ -37,5 +49,6 @@ SELECT
         WHEN R_Score <= 2 AND F_Score <= 2        THEN 'Hibernating'
         ELSE                                           'Lost'
     END AS Segment
-INTO analytics.customer_segments
-FROM analytics.rfm_scores;
+FROM analytics.rfm_scores
+) cs
+JOIN staging.crm_customers c ON cs.Customer_ID = c.Customer_ID;
