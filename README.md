@@ -21,7 +21,8 @@ This project was designed to answer four specific business questions:
 ### Data Structure & Initial Checks
 BritGifts Online database structure as seen below consists of four tables: Customer, order, order_item, with a total row count of 500,989 records.
 
-Entity Relationship Diagram can be found [here](datasets/Charts/erd_staging_layer.png)
+<img width="2556" height="1653" alt="erd_staging_layer" src="https://github.com/user-attachments/assets/5b0cc30d-2bd1-49c1-be0f-c5b0d058edf5" />
+
 
 
 ### Key Findings
