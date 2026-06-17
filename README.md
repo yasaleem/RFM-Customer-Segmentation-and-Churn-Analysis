@@ -2,7 +2,7 @@
 
 BritGifts Online is a UK-based e-commerce retailer selling gifts and homeware products across Europe and beyond. This project builds a complete customer analytics pipeline — from raw transactional data to actionable customer segments and churn indicators — designed to help the marketing team make data-driven decisions about customer retention, loyalty, and lifetime value.
 
-An Interactive Power BI dashboard can be downloaded [here].\
+An Interactive Power BI dashboard can found [here](docs/Power BI).\
 The SQL queries utilized to inspect and perform quality checks can be found [here](www.google.com).\
 The SQL queries utilized to clean, organize, and prepare data for the dashboard can be found [here](scripts/Data_cleaning.sql).\
 Targeted SQL queries regarding various business questions can be found [here](scripts/Analytics).
