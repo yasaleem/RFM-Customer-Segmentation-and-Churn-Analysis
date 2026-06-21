@@ -28,8 +28,8 @@ Revenue at risk by segment stacked bar, churn risk distribution donut,
 High risk customer table sorted by monetary value.
 
 #### Screenshots
-![Dashboard Overview](charts/powerbi_overview.png)
-![Customer Segments](charts/powerbi_segments.png)
+![Dashboard Overview](charts/overview.jpg)
+![Customer Segments](charts/customersegment.jpg)
 ![Cohort Retention](charts/powerbi_cohort.png)
 ![Churn Risk](charts/powerbi_churn.png)
 
