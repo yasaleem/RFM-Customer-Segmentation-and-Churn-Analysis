@@ -31,7 +31,7 @@ High risk customer table sorted by monetary value.
 ![Dashboard Overview](charts/overview.jpg)
 ![Customer Segments](charts/customersegment.jpg)
 ![Cohort Retention](charts/powerbi_cohort.png)
-![Churn Risk](charts/powerbi_churn.png)
+![Churn Risk](charts/overview.jpg)
 
 ### Technical Details
 - **Data source:** SQL Server — analytics layer
