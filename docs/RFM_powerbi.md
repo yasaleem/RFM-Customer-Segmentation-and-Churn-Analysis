@@ -30,7 +30,7 @@ High risk customer table sorted by monetary value.
 #### Screenshots
 ![Dashboard Overview](charts/overview.jpg)
 ![Customer Segments](charts/customersegment.jpg)
-![Cohort Retention](charts/powerbi_cohort.png)
+![Cohort Retention](charts/cohort.jpg)
 ![Churn Risk](charts/overview.jpg)
 
 ### Technical Details
