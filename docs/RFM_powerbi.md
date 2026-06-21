@@ -1,7 +1,7 @@
 ### Power BI Dashboard
 
 #### Live Dashboard
-[View Interactive Dashboard](YOUR_POWER_BI_PUBLISHED_LINK_HERE)
+[View Interactive Dashboard](https://app.powerbi.com/links/Te31v8Sis1?ctid=ca67eede-0f19-4a59-bb1c-da269bed9be1&pbi_source=linkShare)
 
 #### Dashboard Overview
 Built an interactive 4-page executive dashboard connected directly 
