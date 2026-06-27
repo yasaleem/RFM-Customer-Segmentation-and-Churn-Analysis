@@ -74,47 +74,62 @@ BritGifts Online database structure as seen below consists of four tables: Custo
 ---
 
 ### Business Recommendations
-#### Champions — 289 customers — Avg spend £12,684
-**Goal: Retain and reward**
-- Personal outreach — not mass email
-- Exclusive early access to new products
-- Loyalty reward programme enrollment
-- **Urgent:** 4 Champions showing early churn signals — immediate personal contact required
 
-#### Loyal Customers — 834 customers — Avg spend £2,395
-**Goal: Deepen relationship**
-- Personalised product recommendations based on purchase history
-- Reward milestone purchases — 10th order, anniversary
-- Upsell within categories they already buy
-- Weekly monitoring for 23 High churn risk Loyal customers
+#### Recommendation 1 — Protect Champions Before Anything Else
+> **Linked to Finding 1 (revenue concentration) + Finding 3 (early churn signals)**
 
-#### Promising — 1,634 customers — Avg spend £874
-**Goal: Convert to second purchase**
-- Second purchase nudge campaign within 30 days of first order
-- Product recommendations based on first purchase category
-- Time-limited free shipping offer to reduce friction
-- Immediate intervention for 120 High churn risk Promising customers
+289 Champions generate £3.67M — 45% of total revenue. 4 are already
+2x overdue on their purchase cycle. Immediate personal contact required.
+Target: Zero Champions moving to At Risk per quarter.
 
-#### At Risk — 147 customers — Avg spend £2,336
-**Goal: Win back before fully lost**
-- Personal win-back email acknowledging the gap — not a mass campaign
-- Meaningful incentive — not a generic 10% discount
-- Survey to understand why they stopped — valuable product feedback
-- Act within 30 days — window is closing fast
+---
 
-#### Hibernating — 1,272 customers — Avg spend £545
-**Goal: Selective re-engagement**
-- One targeted win-back campaign for High risk group — 825 customers
-- Focus on customers with 14-day avg order gap — proven frequent buyers
-- Review cancellation data for product quality signals
-- Accept that some will not return — do not over-invest
+#### Recommendation 2 — Win Back Hibernating Before They Are Truly Lost
+> **Linked to Finding 2 — 825 once bought every 14 days**
 
-#### Lost — 32 customers — Avg spend £2,317
-**Goal: Last attempt then accept**
-- One final re-engagement campaign with a compelling offer
-- If no response within 60 days — retire from active marketing
-- Analyse order history for product or service failure patterns
-- Use as a learning input — not a recovery target
+825 High risk Hibernating customers are proven frequent buyers.
+One targeted campaign focused on this group. Reference previous
+purchases — not a generic message.
+Target: 15% response = £67K recovered revenue.
+
+---
+
+#### Recommendation 3 — The Second Purchase Is the Critical Moment
+> **Linked to Finding 5 — 64% lost in Month 1**
+
+Trigger second purchase nudge within 7 days of first order.
+Product recommendation not discount. Track second purchase
+conversion as primary KPI.
+Target: Increase Month 1 retention from 21.9% to 28%.
+
+---
+
+#### Recommendation 4 — Acquire More January-Like Customers
+> **Linked to Finding 4 — January retains 2.3x better than June**
+
+Analyse what January buyers purchased first. Identify acquisition
+channels active in January. Share cohort findings with marketing
+to shift budget toward quality acquisition.
+Target: Improve average Month 1 retention across all cohorts.
+
+---
+
+#### Recommendation 5 — At Risk Needs Urgent Action Not Routine Outreach
+> **Linked to Finding 1 — At Risk spend matches Loyal Customers**
+
+147 customers, £2,336 avg spend, 120 days silent. Personal email
+within 7 days. Acknowledge the gap. Act within 30 days or move
+to final campaign.
+Target: 25% win-back = £86K recovered revenue.
+
+---
+
+### Recommendation 6 — Loyal Customers Are Your Growth Engine
+> **Linked to Finding 1 + Finding 5**
+
+834 customers, 6 avg orders, proven retention. Monthly personalised
+recommendations. Clear upgrade path to Champions.
+Target: 10% upgrade to Champions = £1M additional revenue.
 
 ### 🛡️ License
 
